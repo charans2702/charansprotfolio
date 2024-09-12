@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan Protfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">CS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#future-goals">Future Goals</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold text-white mb-3">Charan S</h1>
+            <p class="lead mb-4">Computer Science and Engineering - Artificial Intelligence</p>
+            <a href="#about" class="btn btn-light btn-lg">Explore My Work</a>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <section id="about" class="py-5 fade-in-up">
+            <div class="container">
+                <h2 class="text-center section-title">About Me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <p class="lead text-center">
+                            Aspiring AI and Machine Learning professional with  strong foundation in Computer Science. 
+                            Passionate about solving complex problems and creating innovative solutions using cutting-edge technologies.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-center mt-4">
+                            <a href="mailto:Charan.s2702@gmail.com" class="btn btn-outline-primary me-2 mb-2"><i class="fas fa-envelope me-2"></i>Email</a>
+                            <a href="tel:9739764968" class="btn btn-outline-primary me-2 mb-2"><i class="fas fa-phone me-2"></i>Call</a>
+                            <a href="https://github.com/charans2702" target="_blank" class="btn btn-outline-primary me-2 mb-2"><i class="fab fa-github me-2"></i>GitHub</a>
+                            <a href="https://linkedin.com/in/charan-s-67389727a" target="_blank" class="btn btn-outline-primary me-2 mb-2"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="py-5 fade-in-up">
+            <h2 class="text-center section-title">Education</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Sri Venkateshwara College of Engineering, Bangalore</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">B.E. in Computer Science and Engineering – Artificial Intelligence</h6>
+                    <p class="card-text">August 2020 – May 2024</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="py-5 fade-in-up">
+            <h2 class="text-center section-title">Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body-education">
+                            <h4 class="card-title text-center mb-4"><i class="fas fa-code me-2"></i>Programming</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Python</li>
+                                <li class="list-group-item">SQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center mb-4"><i class="fas fa-brain me-2"></i>Data Science & ML</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Data Analysis</li>
+                                <li class="list-group-item">Supervised & Unsupervised Learning</li>
+                                <li class="list-group-item">ANN, RNN, Transformers</li>
+                                <li class="list-group-item">Data visualization</li>
+
+                                <li class="list-group-item">NLP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center mb-4"><i class="fas fa-tools me-2"></i>Frameworks & Tools</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Scikit-Learn, TensorFlow, Keras</li>
+                                <li class="list-group-item">Pandas, NumPy</li>
+                                <li class="list-group-item">Matplotlib,Seaborn</li>
+                                <li class="list-group-item">Flask</li>
+                                <li class="list-group-item">NLTK</li>
+                                <li class="list-group-item">Langchain</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center mb-4"><i class="fas fa-robot me-2"></i>Generative AI & Technologies</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Langchain</li>
+                                <li class="list-group-item">Large Language Models (LLMs)</li>
+                                <li class="list-group-item">Retrieval-Augmented Generation (RAG)</li>
+                                <li class="list-group-item">Vector Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="projects" class="py-5 fade-in-up">
+            <div class="container">
+                <h2 class="text-center section-title">Projects</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Retail Q&A System</h5>
+                                <p class="card-text">Advanced retail Q&A system using Generative AI technologies.</p>
+                                <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#retailQAModal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Placement Prediction</h5>
+                                <p class="card-text">ML-based system to predict student placement outcomes.</p>
+                                <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#placementModal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Email Spam Classification</h5>
+                                <p class="card-text">NLP and ML-based email spam classifier.</p>
+                                <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#spamClassificationModal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Telecom Churn Prediction</h5>
+                                <p class="card-text">Predicts customer churn in the telecommunication industry.</p>
+                                <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#telecomChurnModal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="leetcode" class="py-5 fade-in-up">
+            <div class="container">
+                <h2 class="text-center section-title">LeetCode Achievements</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">250+ Problems Solved</h3>
+                                <p class="card-text">Demonstrated strong problem-solving skills and algorithmic thinking by solving over 250 problems on LeetCode.</p>
+                                <a href="https://leetcode.com/u/CHARANS27/" target="_blank" class="btn btn-primary mt-2">View LeetCode Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="future-goals" class="py-5 fade-in-up">
+                <div class="container">
+                    <h2 class="text-center section-title mb-5">Future Goals & Aspirations</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-rocket me-2"></i>Research & Innovation</h5>
+                                    <p class="card-text">Aspire to contribute to cutting-edge research in AI, particularly in the areas of natural language processing and computer vision. Aim to publish papers in top-tier conferences and journals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-laptop-code me-2"></i>AI for Social Good</h5>
+                                    <p class="card-text">Passionate about leveraging AI to solve real-world problems. Goal to work on projects that have a positive impact on society, such as healthcare diagnostics or environmental conservation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-users me-2"></i>Mentorship & Education</h5>
+                                    <p class="card-text">Aspire to become a thought leader in the AI community. Aim to mentor aspiring data scientists and contribute to educational initiatives that make AI more accessible to a wider audience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-briefcase me-2"></i>Industry Impact</h5>
+                                    <p class="card-text">Strive to work with leading tech companies to develop AI solutions that revolutionize industries. Interested in exploring the intersection of AI with fields like finance, healthcare, and robotics.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <p class="lead">Excited about the future of AI and always open to new opportunities and collaborations.</p>
+                        <a href="mailto:Charan.s2702@gmail.com" class="btn btn-primary btn-lg mt-3"><i class="fas fa-envelope me-2"></i>Get in Touch</a>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <!-- Project Modals -->
+<div class="modal fade" id="retailQAModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Retail Q&A System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Advanced retail question and answer system using generative AI technologies. The system interacts with a t-shirts database and provides accurate and contextually relevant answers to user queries.</p>
+                <h6>Technologies Used:</h6>
+                <ul>
+                    <li>Langchain</li>
+                    <li>Large Language Model (GooglePalm)</li>
+                    <li>RAG (Retrieval-Augmented Generation)</li>
+                    <li>Vector Databases</li>
+                    <li>MySQL Database</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="placementModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Placement Prediction</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Developed a Placement Prediction system using Machine Learning, incorporating academic data and skills to forecast students' placement outcomes.</p>
+                <h6>Key Features:</h6>
+                <ul>
+                    <li>Data preprocessing and feature selection</li>
+                    <li>Random Forest Classifier for prediction</li>
+                    <li>Flask-based user interface for real-time predictions</li>
+                </ul>
+                <h6>Technologies Used:</h6>
+                <ul>
+                    <li>Python</li>
+                    <li>Scikit-learn</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Flask</li>
+                </ul>
+                <a href="https://github.com/charans2702/Placement_Prediction_Using_Machine-Learning" target="_blank" class="btn btn-primary mt-3">GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="spamClassificationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Email Spam Classification</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Developed an email spam classification model leveraging Natural Language Processing and Machine Learning techniques to accurately differentiate between spam and ham emails.</p>
+                <h6>Key Features:</h6>
+                <ul>
+                    <li>TF-IDF vectorization for text-to-numerical data conversion</li>
+                    <li>Artificial Neural Network using TensorFlow for classification</li>
+                </ul>
+                <h6>Technologies Used:</h6>
+                <ul>
+                    <li>Python</li>
+                    <li>TensorFlow</li>
+                    <li>NLTK</li>
+                    <li>Scikit-learn</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="telecomChurnModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Telecom Churn Prediction</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Developed a Telecom Churn Prediction system to predict customer churn in the telecommunication industry.</p>
+                <h6>Key Features:</h6>
+                <ul>
+                    <li>Utilized Python and popular data science libraries for data processing, analysis, visualization, and model building</li>
+                    <li>Implemented and compared various machine learning models using Scikit-Learn to identify the best performing model</li>
+                    <li>Created a web application using Flask to deploy the churn prediction model</li>
+                </ul>
+                <h6>Technologies Used:</h6>
+                <ul>
+                    <li>Python</li>
+                    <li>Scikit-learn</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                    <li>Seaborn</li>
+                    <li>Flask</li>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                </ul>
+                <a href="https://github.com/charans2702/Telecom_Churn_Prediction" target="_blank" class="btn btn-primary mt-3">GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="text-center py-3">
+        <p class="mb-0">&copy; 2024 Charan S. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
