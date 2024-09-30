@@ -143,7 +143,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Telecom Churn Prediction</h5>
-                                <p class="card-text">Predicts customer churn in the telecommunication industry.</p>
+                                <p class="card-text">Predicts customer churn in the telecommunication industry.                                  </p>
                                 <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#telecomChurnModal">Learn More</button>
                             </div>
                         </div>
@@ -151,8 +151,17 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="card h-100">
                             <div class="card-body">
+                                <h5 class="card-title">Amazon Review Retrival and Sentiment Analysis</h5>
+                                <p class="card-text">Scrapped Amazon Webpage for IPhone Reviews and performed Sentiment Analysis on those Reviews.</p>
+                                <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#amazonSentimentAnalysis">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
                                 <h5 class="card-title">Retail Q&A System</h5>
-                                <p class="card-text">Advanced retail Q&A system using Generative AI technologies.</p>
+                                <p class="card-text">Advanced retail Q&A system using Generative AI technologies.                                </p>
                                 <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#retailQAModal">Learn More</button>
                             </div>
                         </div>
@@ -161,7 +170,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Placement Prediction</h5>
-                                <p class="card-text">ML-based system to predict student placement outcomes.</p>
+                                <p class="card-text">ML-based system to predict student placement outcomes.                                    </p>
                                 <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#placementModal">Learn More</button>
                             </div>
                         </div>
@@ -170,7 +179,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Email Spam Classification</h5>
-                                <p class="card-text">NLP and ML-based email spam classifier.</p>
+                                <p class="card-text">NLP and ML-based email spam classifier.                                                   </p>
                                 <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#spamClassificationModal">Learn More</button>
                             </div>
                         </div>
@@ -318,7 +327,39 @@
             </div>
         </div>
     </div>
+
+</div><div class="modal fade" id="amazonSentimentAnalysis" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Amazon Review Retrival and Sentiment Analysis</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Developed a Review Retrival and Sentiment Analysis model for IPhone Reviews from Amazon.</p>
+                <h6>Key Features:</h6>
+                <ul>
+                    <li>Scrapped Amazon webpage fro IPhone 12 Reviews and Extracted Review with Review Title,Description,IPhone Color,Storage Size,Rating,Verified Purchase and SQLite Database.</li>
+                    <li>Performed Sentiment Analysis for the Extracted Reviews using NLTK library.</l>
+                    <li>Created Two APIs,One for Sentiment Analysis Given a new review it will provide a sentmint for it another for Review retrival given a color,storage Size and Rating it will fetch the reviews from the Database.</l>
+                </ul>
+                <h6>Technologies Used:</h6>
+                <ul>
+                    <li>Python</li>
+                    <li>BeautifulSoup</li>
+                    <li>requests</li>
+                    <li>Flask</li>
+                    <li>Scikit-Learn</li>
+                    <li>NLTK</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                </ul>
+                <a href="https://github.com/charans2702/Amazon-ReviewRetrival-and-SentimentAnalysis" target="_blank" class="btn btn-primary mt-3">GitHub Repository</a>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 <div class="modal fade" id="telecomChurnModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
