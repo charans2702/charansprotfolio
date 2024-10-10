@@ -142,6 +142,15 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="card h-100">
                             <div class="card-body">
+                                <h5 class="card-title">Crypto Volatility Prediction</h5>
+                                <p>Predicts cryptocurrency market volatility using social media sentiment analysis and historical market data.</p>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cryptoVolatilityModal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
                                 <h5 class="card-title">Telecom Churn Prediction</h5>
                                 <p class="card-text">Predicts customer churn in the telecommunication industry.                                  </p>
                                 <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#telecomChurnModal">Learn More</button>
@@ -359,7 +368,41 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="cryptoVolatilityModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cryptocurrency Volatility Prediction</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Developed a system to predict cryptocurrency market volatility using social media sentiment analysis and historical market data.</p>
+                
+                <h6>Key Features:</h6>
+                <ul>
+                    <li>Real-time data collection from Reddit and CoinGecko API</li>
+                    <li>Sentiment analysis using DistilBERT model</li>
+                    <li>Historical data visualization</li>
+                    <li>Volatility prediction using Random Forest</li>
+                    <li>Web interface for easy interaction with the system</li>
+                </ul>
 
+                <h6>Technologies Used:</h6>
+                <ul>
+                    <li>Python</li>
+                    <li>Pandas, NumPy</li>
+                    <li>Scikit-learn</li>
+                    <li>PRAW (Python Reddit API Wrapper)</li>
+                    <li>Transformers (Hugging Face)</li>
+                    <li>Flask</li>
+                    <li>requests</li>
+                </ul>
+
+                <a href="https://github.com/charans2702/CryptoCurrency-Volatility-Prediction-based-on-social-media-SentimentAnalysis" class="btn btn-primary mt-3" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="modal fade" id="telecomChurnModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
